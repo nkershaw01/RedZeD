@@ -16,4 +16,4 @@ The output is a dictionary of the form: dimension => persistence pairs of that d
 
 There is also a C++ version, whose main function is redzed(dist, n; threshold).
 
-The C++ version is what is tested against Ripser in the paper.
+The C++ version is what is tested against Ripser in latest version of the paper.
