@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "RedZeD"
+abstract: >-
+  An algorithm for computing persistent homology of Vietoris-Rips filtrations,
+  based on the Reduction to Zero Differentials framework and its active
+  enumeration technique. Includes reference implementations in Julia and C++,
+  and the redzed-tda Python package.
+type: software
+authors:
+  - family-names: Kapulkin
+    given-names: Chris
+  - family-names: Kershaw
+    given-names: Nathan
+    email: nkershaw@uwo.ca
+repository-code: "https://github.com/nkershaw01/RedZeD"
+license: MIT
+keywords:
+  - persistent homology
+  - topological data analysis
+  - Vietoris-Rips
+  - computational topology
+
+preferred-citation:
+  type: article
+  title: "RedZeD: Computing persistent homology by Reduction to Zero Differentials"
+  authors:
+    - family-names: Kapulkin
+      given-names: Chris
+    - family-names: Kershaw
+      given-names: Nathan
+  year: 2026
+  month: 6
+  doi: 10.48550/arXiv.2606.06310
+  url: "https://arxiv.org/abs/2606.06310"
+  identifiers:
+    - type: other
+      value: "arXiv:2606.06310"
