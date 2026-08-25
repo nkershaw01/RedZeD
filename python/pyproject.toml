@@ -55,7 +55,8 @@ testpaths = ["tests"]
 addopts = "-p no:cacheprovider"
 
 [tool.cibuildwheel]
-skip = ["pp*", "*-musllinux*", "cp*t-*", "*-win32"]
+skip = ["*-musllinux*", "cp*t-*", "*-win32"]
 test-extras = ["test"]
-test-command = "pytest {project}/tests"
+# {package} is the package directory; {project} is wherever cibuildwheel was invoked
+test-command = "pytest {package}/tests"
 build-verbosity = 1
