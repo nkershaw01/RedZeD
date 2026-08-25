@@ -23,9 +23,7 @@ jobs:
 
       # cibuildwheel builds one wheel per Python version per platform in an
       # isolated environment, then runs the test suite against the built wheel
-      # v4 rather than an exact version: it tracks the latest 4.x, so support for
-      # new Python releases arrives without an edit here
-      - uses: pypa/cibuildwheel@v4
+      - uses: pypa/cibuildwheel@v4.2.0
         with:
           package-dir: ./python
 
