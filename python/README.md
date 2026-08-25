@@ -26,9 +26,11 @@ pip install redzed-tda
 The distribution is `redzed-tda` and the import name is `redzed_tda`. (The name
 `redzed` on PyPI belongs to an unrelated project.)
 
-Wheels are provided for Linux, macOS and Windows, so no compiler is needed. If no
-wheel matches your platform, pip builds from source instead and you will need a
-C++17 compiler: see [Building from source](#building-from-source).
+Wheels are provided for Linux, macOS and Windows, so no compiler is needed.
+
+If no wheel matches your platform, or your Python version is newer than the last
+release, pip falls back to building from source. That needs a C++17 compiler on
+your machine. On Windows the compiler must be MSVC, not MinGW.
 
 ## Quick start
 
@@ -97,7 +99,7 @@ pip install -e ".[test]"
 pytest
 ```
 
-Requires CMake and a C++17 compiler. On Windows that must be MSVC.
+Requires a C++17 compiler. On Windows that must be MSVC.
 
 ## Citing
 
@@ -118,4 +120,4 @@ If you use this software in published work, please cite the paper:
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT. See [LICENSE](https://github.com/nkershaw01/RedZeD/blob/main/python/LICENSE).
