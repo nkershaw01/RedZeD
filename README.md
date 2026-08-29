@@ -147,7 +147,7 @@ fresh matrix for each call.
 If you use this software in published work, please cite the paper:
 
 ```bibtex
-@misc{kapulkin2026redzed,
+@misc{kapulkinkershaw2026redzed,
   title         = {RedZeD: Computing persistent homology by Reduction to Zero Differentials},
   author        = {Kapulkin, Chris and Kershaw, Nathan},
   year          = {2026},
